@@ -3,3 +3,4 @@ https://raw.githubusercontent.com/Accademia/Additional_Rule_For_Clash/refs/heads
 https://raw.githubusercontent.com/Accademia/Additional_Rule_For_Clash/refs/heads/main/ChinaDNS/ChinaDNS_Domain.yaml
 https://raw.githubusercontent.com/Accademia/Additional_Rule_For_Clash/refs/heads/main/ChinaDNS/ChinaDNS_IP.yaml
 https://raw.githubusercontent.com/Accademia/Additional_Rule_For_Clash/refs/heads/main/Gemini/Gemini_Domain.yaml
+https://raw.githubusercontent.com/Accademia/Additional_Rule_For_Clash/refs/heads/main/HijackingPlus/HijackingPlus.yaml
