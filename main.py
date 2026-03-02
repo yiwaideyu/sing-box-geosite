@@ -61,11 +61,11 @@ def read_list_from_url(url):
 
 def is_ipv4_or_ipv6(address):
     try:
-        ipaddress.IPv4Network(address)
+        ipaddress.IPv4Network(address,strict=False)
         return 'ipv4'
     except ValueError:
         try:
-            ipaddress.IPv6Network(address)
+            ipaddress.IPv6Network(address,strict=False)
             return 'ipv6'
         except ValueError:
             return None
@@ -86,7 +86,7 @@ def parse_and_convert_to_dataframe(link):
             for item in items:
                 address = item.strip("'")
                 if ',' not in item:
-                    if is_ipv4_or_ipv6(item):
+                    if is_ipv4_or_ipv6(address):
                         pattern = 'IP-CIDR'
                     else:
                         if address.startswith('+') or address.startswith('.'):
