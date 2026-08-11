@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "rules": [
     {
       "domain": [
@@ -32,6 +33,5 @@
         "dns114.cn"
       ]
     }
-  ],
-  "version": 2
+  ]
 }

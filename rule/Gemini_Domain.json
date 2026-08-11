@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "rules": [
     {
       "domain": [
@@ -77,6 +78,5 @@
         "yt3.ggpht.com"
       ]
     }
-  ],
-  "version": 2
+  ]
 }
